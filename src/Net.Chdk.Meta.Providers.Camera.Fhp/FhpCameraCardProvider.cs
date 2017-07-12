@@ -2,7 +2,7 @@
 
 namespace Net.Chdk.Meta.Providers.Camera.Fhp
 {
-    sealed class FhpCardProvider : EosCardProvider
+    sealed class FhpCameraCardProvider : EosCameraCardProvider
     {
         protected override string GetCardType(uint modelId) => "CF";
     }
