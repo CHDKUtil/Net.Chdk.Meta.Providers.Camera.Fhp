@@ -26,8 +26,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Camera.Eos\src\Net.Chdk.Meta.Model.Camera.Eos\Net.Chdk.Meta.Model.Camera.Eos.csproj" />
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Camera\src\Net.Chdk.Meta.Model.Camera\Net.Chdk.Meta.Model.Camera.csproj" />
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Camera.Base\src\Net.Chdk.Meta.Providers.Camera.Base\Net.Chdk.Meta.Providers.Camera.Base.csproj" />
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Camera.Core\src\Net.Chdk.Meta.Providers.Camera.Core\Net.Chdk.Meta.Providers.Camera.Core.csproj" />
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Camera.Eos.Core\src\Net.Chdk.Meta.Providers.Camera.Eos.Core\Net.Chdk.Meta.Providers.Camera.Eos.Core.csproj" />
