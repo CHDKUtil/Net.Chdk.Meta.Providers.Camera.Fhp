@@ -8,6 +8,7 @@ namespace Net.Chdk.Meta.Providers.Camera.Fhp
         public static IServiceCollection AddFhpProviders(this IServiceCollection serviceCollection)
         {
             return serviceCollection
+                .AddEosCameraProviders()
                 .AddSingleton<ICameraBootProvider, FhpCameraBootProvider>()
                 .AddSingleton<IEosCameraCardProvider, FhpCameraCardProvider>();
         }
